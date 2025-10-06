@@ -1,0 +1,175 @@
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs & temp
+*.log
+logs/
+log/
+tmp/
+temp/
+*.pid
+*.seed
+*.pid.lock
+
+# Editor/IDE
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.history/
+*.swp
+*.swo
+*~
+*.orig
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_dsa
+
+# Node/JS
+node_modules/
+bower_components/
+jspm_packages/
+dist/
+build/
+.out/
+.eslintcache
+.nyc_output/
+coverage/
+.istanbul/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.vscode-test/
+yarn-error.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+.eggs/
+*.egg-info/
+.installed.cfg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+.pyre/
+.pytype/
+.ipynb_checkpoints/
+
+# Java / Kotlin / Gradle
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+.mvn/
+hs_err_pid*
+replay_pid*
+
+# Go
+bin/
+*.test
+coverage.out
+# vendor/  # uncomment if you do not commit vendored deps
+
+# Rust
+target/
+*.rlib
+
+# PHP
+vendor/
+composer.phar
+.phpunit.cache/
+.php-cs-fixer.cache
+
+# Ruby
+.bundle/
+vendor/bundle/
+log/
+tmp/
+coverage/
+.yardoc/
+pkg/
+
+# .NET
+bin/
+obj/
+TestResult*/
+*.user
+*.suo
+*.pdb
+
+# Swift/Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/*.xcuserdatad/
+
+# Android
+.gradle/
+local.properties
+*.iml
+captures/
+*.keystore
+
+# Docker
+.docker/
+docker-data/
+docker-compose.override.yml
+
+# Databases & data
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.rdb
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ansible
+*.retry
+
+# Migrations (do not track)
+**/migrations/
+**/migration/
+**/Migrations/
+**/Migration/
+**/db/migrate/
+**/database/migrations/
+**/prisma/migrations/
+**/alembic/

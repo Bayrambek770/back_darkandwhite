@@ -66,4 +66,3 @@ python manage.py runserver
 - Permissions: Auth required for cart/order/review create; admin for order status changes.
 - Images: Uses ImageField paths; configure MEDIA if uploading.
   - Install Pillow if not already: `pip install Pillow`
-# back_darkandwhite
